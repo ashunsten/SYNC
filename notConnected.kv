@@ -1,0 +1,13 @@
+<notConnected>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            text: "Sorry wrong credentials"
+            font_size: 24
+            font_color: (0.0, 1.0, 0.5, 1.0)
+        Button:
+            text: "Return"
+            font_size: 24
+            background_color: (1.0, 0.0, 0.0, 1.0)
+            on_press: root.disconnect()

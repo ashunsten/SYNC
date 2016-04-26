@@ -1,0 +1,26 @@
+<Connected>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            text: "Welcome Dude"
+            font_size: 32
+
+
+        BoxLayout:
+            orientation: 'vertical'
+
+            Label:
+                text: 'Type your Code'
+                font_size: 18
+                halign: 'center'
+                text_size: root.width-20, 20
+
+            TextInput:
+                id: login
+                multiline:True
+                font_size: 28
+        Button:
+            text: "Wanna Fuck off?"
+            font_size: 24
+            on_press: root.disconnect()
